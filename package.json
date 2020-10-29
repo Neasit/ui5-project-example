@@ -17,6 +17,7 @@
     "@ui5/logger": "^1.0.2",
     "ui5-middleware-proxy": "^0.0.10",
     "ui5-middleware-servestatic": "*",
+    "ui5-task-transpile": "*",
     "grunt-nwabap-ui5uploader": "^1.0.7",
     "dotenv": "^8.2.0",
     "grunt": "^1.0.4",
@@ -36,7 +37,8 @@
   "ui5": {
     "dependencies": [
       "ui5-middleware-servestatic",
-      "ui5-middleware-proxy"
+      "ui5-middleware-proxy",
+      "ui5-task-transpile"
     ]
   }
 }

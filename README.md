@@ -18,6 +18,8 @@ To use "build" and "deploy" tasks the '.env' file have to be fullfieled based on
 There is predefined grunt task - 'default' in root directory of application
 Build is based on UI5-Tooling and also can be started using command - 'ui5 build'
 
+**Note**: babel task is turned on by default - can be deactivated in ui5.yaml (`delete 'ui5-task-transpile'`)
+
 # How to create MTA container
 
 There is predefined task
