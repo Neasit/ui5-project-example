@@ -31,3 +31,9 @@ server:
   settings:
     httpPort: 3070
     httpsPort: 3071
+framework:
+  name: SAPUI5
+  version: 1.76.0
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m
